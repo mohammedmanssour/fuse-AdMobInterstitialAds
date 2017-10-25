@@ -1,0 +1,22 @@
+{
+  "RootNamespace":"",
+  "Packages": [
+    "Fuse",
+    "FuseJS"
+  ],
+  "Includes": [
+    "*",
+    "GoogleService-Info.plist:ObjCSource:iOS"
+  ],
+  "Android": {
+    "Package": "com.isagha.isagha",
+    "AdMob" : {
+    	"appID" : "*****",
+    	"testDevice" : "",
+    }
+  },
+  "Projects" : [
+  	"../AdMobInterstitialAd/AdMobInterstitialAd.unoproj"
+  ]
+}
+

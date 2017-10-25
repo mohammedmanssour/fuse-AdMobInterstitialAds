@@ -1,0 +1,12 @@
+<App>
+	<ClientPanel>
+
+		<JavaScript>
+			var AdMobInterstitialAd = require('AdMobInterstitialAd');
+			AdMobInterstitialAd.initAd("******");
+		</JavaScript>
+
+		<Text Alignment="Center" TextAlignment="Center" Color="Black" TextWrapping="Wrap" Value="Let's hope that the Interstitial Ad will apear in a minute" />
+
+	</ClientPanel>
+</App>
